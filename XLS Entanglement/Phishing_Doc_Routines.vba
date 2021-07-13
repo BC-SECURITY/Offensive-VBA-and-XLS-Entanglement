@@ -5,8 +5,7 @@ Private Declare PtrSafe Function GetWindowText Lib "user32" Alias "GetWindowText
 Private Declare PtrSafe Function GetWindowTextLength Lib "user32" Alias "GetWindowTextLengthA" (ByVal hWnd As Long) As Long
 Private Declare PtrSafe Function GetWindow Lib "user32" (ByVal hWnd As Long, ByVal wCmd As Long) As Long
 Private Declare PtrSafe Function IsWindowVisible Lib "user32" (ByVal hWnd As Long) As Boolean
-Private Declare PtrSafe Function SetForegroundWindow Lib "user32" _
-               (ByVal hWnd As LongPtr) As LongPtr
+Private Declare PtrSafe Function SetForegroundWindow Lib "user32" (ByVal hWnd As LongPtr) As LongPtr
 Private Const GW_HWNDNEXT = 2
 
 Private Sub Focus()
