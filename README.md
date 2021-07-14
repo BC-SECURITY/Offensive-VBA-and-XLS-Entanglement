@@ -8,6 +8,6 @@ VBA provides every capability that other offensive languages offer including rud
 | File | Description |
 | ---  | --- |
 | [HelloWorld.vba](../master/HelloWorld.vba)| demonstrates disabling the protections against accessing the VBA project and dynamically injecting VBA code|
-| [HelloWorld-WIN32_API.vba](../master/HelloWorld_WIN32API.vba)| same as HelloWorld.vba but uses Win32 APIs instead of WScript to modify registry|
+| [HelloWorldWIN32_API.vba](../master/HelloWorld_WIN32API.vba)| same as HelloWorld.vba but uses Win32 APIs instead of WScript to modify registry|
 | [OutlookC2_POC.vba](../master/OutlookC2_POC.vba)| macro to convert Outlook into a C2 that watches for an email and injects VBA into an Excel file|
 | [XLS Entaglement](../master/XLS%20Entanglement)| contains the files for executing a rudimentry XLS Entanglement attack|
